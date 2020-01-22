@@ -13,7 +13,7 @@ public class TestFlipkart extends BaseTest {
     public void testSamsungMobileSearch() throws IOException {
 
         String productToSearch = "Samsung Mobile";
-        try {
+//        try {
             searchPage = new SearchPage();
             logger.log(LogStatus.INFO, "Launched Flipkart Web Application");
 
@@ -35,18 +35,18 @@ public class TestFlipkart extends BaseTest {
             productPage.addProduct();
             passStep("Product " + productPage.getProductName() + " is added to the cart");
 
-        } catch (Exception e) {
-
-            failStep(e.getMessage());
-            Assert.fail();
-        }
+//        } catch (Exception e) {
+//
+//            failStep(e.getMessage());
+//            Assert.fail();
+//        }
     }
 
     @Test
     public void testAppleMobile() throws IOException {
 
         String productToSearch = "Apple iPhone Mobile";
-        try {
+//        try {
             searchPage = new SearchPage();
             logger.log(LogStatus.INFO, "Launched Flipkart Web Application");
 
@@ -68,11 +68,11 @@ public class TestFlipkart extends BaseTest {
             productPage.addProduct();
             passStep("Product " + productPage.getProductName() + " is added to the cart");
 
-        } catch (Exception e) {
-
-            failStep(e.getMessage());
-            Assert.fail();
-        }
+//        } catch (Exception e) {
+//
+//            failStep(e.getMessage());
+//            Assert.fail();
+//        }
     }
 
 }

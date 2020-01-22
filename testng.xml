@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Flipkart Automation">
 	<test name="Flipkart Test">
-		<parameter name="browser" value="FF" />
+		<parameter name="browser" value="CH" />
 		<classes>
 			<class name="net.com.test.TestFlipkart"> </class>
 		</classes>
