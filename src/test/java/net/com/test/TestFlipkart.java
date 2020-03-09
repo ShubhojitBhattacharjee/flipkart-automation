@@ -75,4 +75,10 @@ public class TestFlipkart extends BaseTest {
 //        }
     }
 
+    @Test
+    public void dataProviderTestCase() {
+
+        System.out.println("In DP");
+    }
+
 }
