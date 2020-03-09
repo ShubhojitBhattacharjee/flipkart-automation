@@ -29,8 +29,8 @@ public class TestFlipkart extends BaseTest {
                 passStep(productPage.getProductName() + " is same as the product " + productPage.getProductTitle());
                 Assert.assertTrue(true);
             } else {
-                failStep("Selected and displayed products are diferent");
-                Assert.fail();
+                failStep("Selected and displayed products are different");
+                Assert.fail("Selected and displayed products are different");
             }
             productPage.addProduct();
             passStep("Product " + productPage.getProductName() + " is added to the cart");
@@ -62,7 +62,7 @@ public class TestFlipkart extends BaseTest {
                 passStep(productPage.getProductName() + " is same as the product " + productPage.getProductTitle());
                 Assert.assertTrue(true);
             } else {
-                failStep("Selected and displayed products are diferent");
+                failStep("Selected and displayed products are different");
                 Assert.fail();
             }
             productPage.addProduct();
