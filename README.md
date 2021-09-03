@@ -12,7 +12,7 @@ Add Product to cart
 - [ ]	Add to Wish list if product is out of stock
 
 # Features of this framework are as follows:
--
+
 This is a Java Maven project that contains dependencies for Selenium, TestNG, Extnt Report(for reporting) and Apache POI(for reading Excel file)
 -	Framework is of **Page Object Model** design pattern
 -	Supports **cross-browser execution** for Chrome, Firefox and IE browsers
