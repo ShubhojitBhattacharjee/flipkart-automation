@@ -1,7 +1,8 @@
 version: 2.1
 orbs:
-  maven: circleci/maven@x.y
+  maven: circleci/maven@1.3.0
 workflows:
-  maven_test:
-    jobs:
-      - maven/test
+    example-workflow:
+      jobs:
+        - maven/test:
+            maven_command: mvn clean test 
