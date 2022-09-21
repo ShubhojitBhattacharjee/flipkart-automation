@@ -23,4 +23,12 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      - flipkart-automation
+
+version: 2.1
+orbs:
+  maven: circleci/maven@x.y
+workflows:
+  maven_test:
+    jobs:
+      - maven/test
