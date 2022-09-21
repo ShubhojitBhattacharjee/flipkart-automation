@@ -69,7 +69,7 @@ public class BaseTest {
         logger.log(LogStatus.PASS, message);
     }
 
-    protected void failStep(String message) throws IOException
+    protected void failStep(String message) throws IOException {
 
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         String screenShotPath = GetScreenShot.capture(WebDriverManager.getDriver(), timeStamp);
